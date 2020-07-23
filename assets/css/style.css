@@ -1,0 +1,71 @@
+/* Fonts load */
+@font-face{
+	src: url('../fonts/Helvetica/HelveticaNeueLTStd-It.woff');
+	font-family: hl;
+}
+
+@font-face {
+	src: url('../fonts/Helvetica/HelveticaNeueLTStd-BdCn.woff');
+	font-family: hb;
+}
+
+
+
+/*Global Css */
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+ul {
+	 margin-bottom: 0px;
+	 padding-bottom: 0px;
+}
+body {
+	background-color: #ccc;
+}
+
+/* Header CSS */
+
+.header {
+	background-color: #fff;
+	padding: 10px 0px;
+}
+
+.header .call-us h2{
+	font-family: hl;
+	font-size: 27px;
+}
+
+.header .call-us h2 span {
+	font-size: 18 px;
+	font-family: hb;
+	color: #555';
+}
+
+.header .logo img {
+	width: 200px;
+	margin: auto;
+	display: block;
+}
+.header .icons ul {
+	text-align: right;
+}
+.header .icons ul li {
+	display: inline-block;
+}
+
+.header .icons ul li a {
+	display: block;
+	padding: 17px 10px;
+	font-size: 27px;
+	color: #666;
+}
